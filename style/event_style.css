@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  background-color: #fff;
+}
+h2#h2 {
+  padding: 10px 20px;
+}
+div.btn {
+  margin: 10px auto;
+  padding: 2.5% 1.5%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 35% 35%;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  border: 0.5px solid #000000;
+}
+div.btn.ColorMode {
+  grid-template-columns: 80%;
+}
+div.btn.anime {
+  grid-template-columns: 30% 30% 30%;
+}
+div.text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+p#name {
+  width: fit-content;
+  margin-top: 10vh auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+button {
+  padding: 10px 0;
+  border-radius: 5.5px;
+  border: 0.5px solid black;
+}
+
+/* fan project */
+
+div.project {
+  width: 100%;
+  height: 100%;
+  /* margin-bottom: 50vh;
+  margin-top: 50vh; */
+}
+
+#contain {
+  width: 50%;
+  height: fit-content;
+  margin: 0vh auto;
+  background-color: red;
+  padding: 6%;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+div.dual{
+    display: flex;
+    /* grid-template-columns: auto auto; */
+}
+#contain p {
+  text-align: center;
+  border: 0.1px solid black;
+  padding: 2%;
+  color: white;
+  width: 100px;
+  transform-origin: bottom;
+
+}
+p#red {
+  background-color: #00e1ff;
+  transform: rotate(45deg);
+
+}
+p#blue {
+  background-color: #ffc400;
+  transform: rotate(-45deg);
+
+
+}
+p#green {
+  background-color: #ff00ff;
+  transform: rotate(90deg);
+}
